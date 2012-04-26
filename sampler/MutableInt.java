@@ -1,6 +1,6 @@
 package sampler;
 
-// jar -cvfm <jarname> <manifestfilename> *.class
+/* Author: Terence Parr */
 
 public class MutableInt extends Number implements Comparable<Number> {
 	public int v;

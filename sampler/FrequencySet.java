@@ -1,5 +1,7 @@
 package sampler;
 
+/* Author: Terence Parr */
+
 import java.util.Hashtable;
 
 /** Count how many of each key we have; not thread safe */
