@@ -4,9 +4,13 @@ Last updated: April 2012
 -----------------------------
 
 Summary:
-A profiler that determines which methods in a program take the most time to execute.
-Uses a Java agent with a premain method that creates a thread that wakes up every 1ms and figures out with method the main thread is currently executing.
-Counts how many times the thread wakes up in each method and calculates a relative ratio of the time spent in each method.
+A profiler that determines which methods in a program take the most time to 
+    execute.
+Uses a Java agent with a premain method that creates a thread that wakes up 
+    every 1ms and figures out with method the main thread is currently 
+    executing.
+Counts how many times the thread wakes up in each method and calculates a 
+    relative ratio of the time spent in each method.
 Uses a shutdown hook to correlate the data and output it to standard out.
 
 Usage: 
