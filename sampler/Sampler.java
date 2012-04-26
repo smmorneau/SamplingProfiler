@@ -2,6 +2,8 @@ package sampler;
 
 import java.util.Set;
 
+/* Resource: http://www.antlr.org/wiki/display/CS345/Sampling+threads */
+
 public class Sampler implements Runnable {
 	
 	@Override
